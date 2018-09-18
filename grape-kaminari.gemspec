@@ -21,6 +21,7 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency "grape"
   spec.add_runtime_dependency "kaminari"
+  spec.add_runtime_dependency "kaminari-grape", "1.0.1"
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"

@@ -2,7 +2,7 @@ module Grape
   module Kaminari
     class << self
       def post_0_9_0_grape?
-        Gem::Version.new(Grape::VERSION) > Gem::Version.new('0.9.0')
+        Gem::Version.new(Grape::VERSION) > Gem::Version.new('0.9.1')
       end
     end
   end
